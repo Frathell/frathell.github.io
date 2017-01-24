@@ -1,0 +1,41 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rogue
+markdown: kramdown
+disqus: dbyll
+google_analytics: 
+title: Frathell
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Frathell
+
+description: Stylish Jekyll Theme
+author:
+  name: Frathell
+  email: frathellgaming@gmail.com
+  github: 
+  twitter: Frathellmap
+  pinterest: 
+  linkedin: 
+  youtube: UCjFqTBwacfnbVtPWInN34_g
+  bio: Map-maker et YouTuber.
+  email_md5: 
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH: https://frathell.github.io
+
+gems:
+  - jekyll-paginate
